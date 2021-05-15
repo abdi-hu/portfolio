@@ -1,7 +1,51 @@
 body {
     background-color: #456284;
 }
-
+#aboutme {
+    background-color: #80A6B7;
+    padding: 25px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.3), inset 0 -3px 3px rgba(0,0,0,0.1);
+    border: solid #ccc 1px;
+    border-radius: 10px;
+    margin: 50px 0 50px 50px;
+}
+.project-modals {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.3), inset 0 -3px 3px rgba(0,0,0,0.1);
+    border: solid #ccc 1px;
+    border-radius: 10px;
+    margin: 50px 0 50px 50px;
+    background-color: #80A6B7;
+}
+.project {
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a > img {
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #4b7183;
+}
+a > img:hover {
+    cursor: pointer;
+}
+.skill-icons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.3), inset 0 -3px 3px rgba(0,0,0,0.1);
+    border: solid #ccc 1px;
+    border-radius: 10px;
+    margin: 50px 0 0 50px;
+    background-color: #80A6B7;
+}
+.skill-icons > img {
+    margin: 10px 30px;
+    max-width: 100px
+}
 
 
 
